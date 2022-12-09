@@ -145,9 +145,9 @@ const memberList = useMemo(() => {
   if (address && (network?.[0].data.chain.id !== ChainId.Mumbai)) {
     return (
       <div className="unsupported-network">
-        <h2>Please connect to Goerli</h2>
+        <h2>Please connect to Mumbai</h2>
         <p>
-          This dapp only works on the Goerli network, please switch networks
+          This dapp only works on the Mumbai(Polygon testnet) network, please switch networks
           in your connected wallet.
         </p>
       </div>
