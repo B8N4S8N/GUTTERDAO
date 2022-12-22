@@ -147,11 +147,9 @@ const memberList = useMemo(() => {
       <div className="unsupported-network">
         <h2>Please connect to Mumbai</h2>
         <p>
-<<<<<<< HEAD
+
           This dapp only works on the Mumbai network, please switch networks
-=======
-          This dapp only works on the Mumbai(Polygon testnet) network, please switch networks
->>>>>>> fb6ea0059b574c6d4e73bf4c5c23687d01891004
+
           in your connected wallet.
         </p>
       </div>
