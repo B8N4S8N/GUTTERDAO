@@ -161,7 +161,7 @@ const memberList = useMemo(() => {
       <div className="landing">
         <h1>Are You Made? 😈</h1>
         <div className="btn-hero">
-          >Prove it!</>
+         <Prove it />
         </div>
       </div>
     );
