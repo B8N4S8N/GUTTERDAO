@@ -4,8 +4,11 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
-  color: #fff;
+  background-image: url(https://res.cloudinary.com/guttermade-llc/image/upload/v1671669893/Buildspace/giphy_1_cmqjpj.gif);
+  
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  color: rgb(0, 0, 0);
   overflow-x: hidden;
 }
 #root {

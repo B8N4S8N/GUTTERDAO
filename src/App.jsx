@@ -145,9 +145,9 @@ const memberList = useMemo(() => {
   if (address && (network?.[0].data.chain.id !== ChainId.Mumbai)) {
     return (
       <div className="unsupported-network">
-        <h2>Please connect to Goerli</h2>
+        <h2>Please connect to Mumbai</h2>
         <p>
-          This dapp only works on the Goerli network, please switch networks
+          This dapp only works on the Mumbai network, please switch networks
           in your connected wallet.
         </p>
       </div>
@@ -168,7 +168,7 @@ const memberList = useMemo(() => {
   if (hasClaimedNFT) {
     return (
       <div className="member-page">
-        <h1>🍪GutterGang Dashboard</h1>
+        <h1> Gutter😈Gang Dashboard</h1>
         <p>Congratulations on being a member</p>
         <div>
           <div>
@@ -322,7 +322,7 @@ const memberList = useMemo(() => {
   }
   return (
     <div className="mint-nft">
-      <h1>Mint your free 🍪DAO Membership NFT</h1>
+      <h1>Mint your free GutterGang DA😈 Membership NFT</h1>
       <div className="btn-hero">
         <Web3Button 
           contractAddress={editionDropAddress}
