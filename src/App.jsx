@@ -159,7 +159,7 @@ const memberList = useMemo(() => {
   if (!address) {
     return (
       <div className="landing">
-        <h1>Welcome to the Gutter😈Gang!</h1>
+        <h1>Welcome to the <br> Gutter😈Gang!</h1>
         <div className="btn-hero">
           <ConnectWallet />
         </div>
